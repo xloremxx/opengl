@@ -1,0 +1,36 @@
+body {
+  font-family: "Roboto";
+}
+
+p {
+  margin: 0;
+  padding: 0;
+}
+
+.list li {
+  margin-bottom: 25px;
+}
+
+.list li a {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.list li button {
+  margin-bottom: 5px;
+}
+
+button {
+  border-radius: 3px;
+  border-top: 1px solid #333;
+  border-left: 1px solid #333;
+  border-bottom: 2px solid #333;
+  border-right: 2px solid #333;
+}
+
+button:active {
+  border-top-width: 2px;
+  border-left-width: 2px;
+  border-bottom-width: 1px;
+  border-right-width: 1px;
+}
